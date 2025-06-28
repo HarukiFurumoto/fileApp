@@ -30,5 +30,6 @@ def classify_files_by_course(output_folder):
             else:
                 print(f"error:Skipped '{filename}' - ファイル名が適切ではありません。「○○_□□」という名前のフォルダにしてください。")
 
-move_files_to_output_folder(r'C:\Users\sunsh\OneDrive\デスクトップ\program\py\fileApp\ファイル入れ', r'C:\Users\sunsh\OneDrive\デスクトップ\program\py\fileApp\出力結果')
-classify_files_by_course(r'C:\Users\sunsh\OneDrive\デスクトップ\program\py\fileApp\出力結果')
+#引数にファイルパスを入力してください。
+move_files_to_output_folder(r'input_folder_path', r'output_folder_path')
+classify_files_by_course(r'output_folder_path')
